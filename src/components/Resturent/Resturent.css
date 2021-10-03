@@ -1,0 +1,12 @@
+.nav-style a{
+    text-decoration: none;
+    margin-right: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
